@@ -5,7 +5,7 @@ self.addEventListener("push", function (event) {
   event.waitUntil(
     self.registration.showNotification(data.title, {
       body: data.message,
-      icon: "/icons/icon-192x192.png",
+      icon: "/icons/maskable-192.png",
     })
   );
 });
